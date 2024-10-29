@@ -3,7 +3,7 @@
 
 {
     "name": "Forestry Association Management",
-    "summary": "In a forestry assocation, management of "
+    "summary": "In a forestry association, management of "
                "owners and parcels.",
     "version": "16.0.1.0.0",
     "author": "Moval Agroingeniería",
