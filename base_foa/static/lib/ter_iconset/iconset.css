@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'ter_iconset';
+  src:  url('fonts/ter_iconset.eot?77ve2a');
+  src:  url('fonts/ter_iconset.eot?77ve2a#iefix') format('embedded-opentype'),
+    url('fonts/ter_iconset.ttf?77ve2a') format('truetype'),
+    url('fonts/ter_iconset.woff?77ve2a') format('woff'),
+    url('fonts/ter_iconset.svg?77ve2a#ter_iconset') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Simplified fa-ter class (inspired by the native Base Fontawesome module) */
+/* Overwrite original */
+[class^="fa-ter-"], [class*=" fa-ter-"] {
+   display: inline-block;
+   font-family: ter_iconset;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-rendering: auto;
+}
+
+/* Render duotone icons */
+[class*="-duotone"]::before {
+   opacity: 1;
+}
+[class*="-duotone"]::after {
+   opacity: 0.4;
+   margin-left: -1em;
+}
+
+/* Print duotone */
+.duotone-print-white::after {
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.6);
+}
+.duotone-print-color::after {
+  opacity: 1;
+  /* Overwritten by js */
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Icons */
+.fa-ter-parcel:before {
+  content: "\e903";
+}
+.fa-ter-parcel-duotone::before {
+  content: "\e904";
+}
+.fa-ter-parcel-duotone::after {
+  content: "\e905";
+}
+.fa-ter-property:before {
+  content: "\e900";
+}
+.fa-ter-property-duotone::before {
+  content: "\e901";
+}
+.fa-ter-property-duotone::after {
+  content: "\e902";
+}
