@@ -22,16 +22,16 @@
     'assets': {
         'web.assets_backend': [
             'base_foa/static/src/scss/base_foa.scss',
-            ('remove', 'base_ter/static/lib/ter_iconset/ter_iconset'),
-            'base_foa/static/lib/ter_iconset/ter_iconset',
+            ('remove', 'base_ter/static/lib/ter_iconset/iconset'),
+            'base_foa/static/lib/ter_iconset/iconset',
         ],
         'web.assets_frontend': [
-            ('remove', 'base_ter/static/lib/ter_iconset/ter_iconset'),
-            'base_foa/static/lib/ter_iconset/ter_iconset',
+            ('remove', 'base_ter/static/lib/ter_iconset/iconset'),
+            'base_foa/static/lib/ter_iconset/iconset',
         ],
         'web.report_assets_common': [
-            ('remove', 'base_ter/static/lib/ter_iconset/ter_iconset'),
-            'base_foa/static/lib/ter_iconset/ter_iconset',
+            ('remove', 'base_ter/static/lib/ter_iconset/iconset'),
+            'base_foa/static/lib/ter_iconset/iconset',
         ],
     },
 }
