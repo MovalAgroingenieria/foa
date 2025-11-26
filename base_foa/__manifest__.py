@@ -4,7 +4,7 @@
 {
     'name': 'Forestry Association Management',
     'summary': 'In a forestry association, management of owners and parcels.',
-    'version': '16.0.1.0.0',
+    'version': "17.0.1.0.0",
     'category': 'Forestry Associations',
     'website': 'https://www.moval.es',
     'author': 'Moval Agroingeniería',
