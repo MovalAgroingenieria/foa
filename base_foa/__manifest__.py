@@ -16,7 +16,7 @@
     'depends': [
         'base_ter',
     ],
-    'data': [
+    'data_old': [
         'views/base_ter_menus.xml',
         'views/res_partner_views.xml',
     ],
